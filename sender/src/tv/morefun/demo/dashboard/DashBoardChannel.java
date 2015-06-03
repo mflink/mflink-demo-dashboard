@@ -14,22 +14,22 @@
  *    limitations under the License.
  */
 
-package tv.matchstick.demo.dashboard;
+package tv.morefun.demo.dashboard;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import tv.matchstick.flint.Flint;
-import tv.matchstick.flint.FlintDevice;
-import tv.matchstick.flint.FlintManager;
-import tv.matchstick.flint.ResultCallback;
-import tv.matchstick.flint.Status;
+import tv.morefun.flint.Flint;
+import tv.morefun.flint.FlintDevice;
+import tv.morefun.flint.FlintManager;
+import tv.morefun.flint.ResultCallback;
+import tv.morefun.flint.Status;
 import android.util.Log;
 
 public abstract class DashBoardChannel implements Flint.MessageReceivedCallback {
     private static final String TAG = DashBoardChannel.class.getSimpleName();
 
-    private static final String DASHBOARD_NAMESPACE = "urn:flint:tv.matchstick.demo.dashboard";
+    private static final String DASHBOARD_NAMESPACE = "urn:flint:tv.morefun.demo.dashboard";
 
     // Commands
     private static final String KEY_COMMAND = "command";

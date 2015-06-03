@@ -14,21 +14,22 @@
  *    limitations under the License.
  */
 
-package tv.matchstick.demo.dashboard;
+package tv.morefun.demo.dashboard;
 
 import java.io.IOException;
 
 import org.json.JSONObject;
 
-import tv.matchstick.flint.ApplicationMetadata;
-import tv.matchstick.flint.ConnectionResult;
-import tv.matchstick.flint.Flint;
-import tv.matchstick.flint.Flint.ApplicationConnectionResult;
-import tv.matchstick.flint.FlintDevice;
-import tv.matchstick.flint.FlintManager;
-import tv.matchstick.flint.FlintMediaControlIntent;
-import tv.matchstick.flint.ResultCallback;
-import tv.matchstick.flint.Status;
+import tv.morefun.demo.dashboard.R;
+import tv.morefun.flint.ApplicationMetadata;
+import tv.morefun.flint.ConnectionResult;
+import tv.morefun.flint.Flint;
+import tv.morefun.flint.Flint.ApplicationConnectionResult;
+import tv.morefun.flint.FlintDevice;
+import tv.morefun.flint.FlintManager;
+import tv.morefun.flint.FlintMediaControlIntent;
+import tv.morefun.flint.ResultCallback;
+import tv.morefun.flint.Status;
 import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -52,7 +53,7 @@ import android.widget.Toast;
 public class DashBoardActivity extends ActionBarActivity {
     private static final String TAG = "MyDashBoardDemo";
 
-    private static final String APP_URL = "http://openflint.github.io/dashboard-demo/receiver/index.html";
+    private static final String APP_URL = "http://mflink.morefun.tv/mflink-demo-dashboard/receiver/index.html";
  
     private Button mSendBtn;
     private EditText mInfoBox;

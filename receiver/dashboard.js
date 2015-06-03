@@ -4,7 +4,7 @@ var fling = window.fling || {};
     'use strict';
 
     // namespace which should be equal to sender's.
-    DashBoard.NAMESPACE = 'urn:flint:tv.matchstick.demo.dashboard';
+    DashBoard.NAMESPACE = 'urn:flint:tv.morefun.demo.dashboard';
 
     function DashBoard() {
         self = this;
